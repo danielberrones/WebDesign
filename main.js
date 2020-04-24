@@ -1,6 +1,6 @@
 // return something funny if true
 myArrowFunc = (a,b) => {
-    a===b ? console.log("they equal, homey!" : console.log("they equal, homey!");
+    a===b ? console.log("they equal, homey!") : console.log("they equal, homey!");
 }
 
 myArrowFunc(3,44);
