@@ -1,109 +1,23 @@
-*{
-    margin:0;
-    padding:0;
+.main-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* justify-content: center;
+    align-items: center; */
 }
 
-body{
-    background-image: url('bg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-nav>h2{
-    font-size:1.90rem;
-    color: white;
-    font-family: source code pro;
-    font-weight: 300;
-    display: block;
-    letter-spacing: 8.4px;
-}
-
-nav>p{
-    font-size:1.3rem;
-    font-weight: 200;
-    color: white;
+.items{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(0,0,0,.6);
-
-}
-
-h2{
-    font-size:4rem;
-    color: white;
-    display: inline;
-    font-family:monospace;
+    font-size:3vw;
+    font-weight:200;
     text-align: center;
-    background-color: rgba(0,0,0,.6);
+    margin:0 auto;
+    height:600px;
+    width:600px;
+    border:5px dashed red;
 }
 
-.nav-wrapper{
-    width:65%;
-    margin:50px auto;
-}
-
-
-fieldset{
-    background-color: rgba(0,0,0,.3);
-    
-}
-input{
-    height:30px;
-    width:400px;
-    margin:10px auto;
-    display: block;
-    font-size: 1.5rem;
-}
-
-button{    
-    height:50px;
-    font-size:2rem;
-    width:400px;
-    margin:20px auto;
-    display: block;
-    color: white;
-    background-color: rgb(7, 63, 65);
-}
-
-main{
-    width: 50%;
-    margin:auto;
-}
-
-h6{
-    margin-top: 35px;
-    color: white;
-    background-color: cadetblue;
-    font-size:1.3rem;
-    text-align: center;
-
-    font-family: ubuntu;
-}
-
-legend{
-    color: white;
-    background-color: brown;
-    font-size:2.3rem;
-    font-family: ubuntu;
-    text-align: center;
-    padding:15px;
-    border-radius:50%;
-}
-
-.toLeft{
-    top:0;
-    z-index: 1;
-    position: fixed;
-    height:100%;
-    width:125px;
-    background-color: rgba(189, 27, 27, 0.424);
-    color: white;
-    font-size:1.3rem;
-
-
-}
-
-.sideHeader{
-    font-size:1.3rem;
-
-
+#colorMe{
+    color:red;
 }
