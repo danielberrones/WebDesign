@@ -1,23 +1,50 @@
-.main-wrapper{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 
-    /* justify-content: center;
-    align-items: center; */
+/* DESKTOP */
+@media screen and (min-width: 1050px) {
+    body {
+        background-image: url('http://picsum.photos/1200/1000/?random=1');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .items{
+        height:300px;
+        width:400px;
+        border:2px solid red;
+    }
+
+
 }
 
-.items{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:3vw;
-    font-weight:200;
-    text-align: center;
-    margin:0 auto;
-    height:600px;
-    width:600px;
-    border:5px dashed red;
+/* TABLET */
+
+@media screen and (min-width: 750px) {
+    body {
+        background-image: url('http://picsum.photos/800/800/?random=2');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .items{
+        height:300px;
+        width:400px;
+        border:4px double cyan;
+    }
 }
 
-#colorMe{
-    color:red;
+/* MOBILE */
+
+@media screen and (min-width: 550px) {
+    body {
+        background-image: url('http://picsum.photos/500/600/?random=3');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .items{
+        height:300px;
+        width:400px;
+        border:2px dashed blue;
+    }
 }
+
