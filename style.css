@@ -1,32 +1,13 @@
-*{
-  padding:0;
-  margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-html{
-  scroll-behavior: smooth;
+body {
+    background: cornsilk;
 }
 
-body{
-  background-image: linear-gradient(to bottom,purple,darkorchid);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-header{
-  position:fixed;
-  height:100px;
-  width:100%;
-  background-color: cyan;
-}
-
-p{
-  font-size:2rem;
-  color:lime;
-  width:75%;
-  text-align: center;
-  text-align: justify;
-  margin:50px auto;
+p {
+    font-family: sans-serif;
+    padding: 100px;
 }
