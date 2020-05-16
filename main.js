@@ -1,18 +1,14 @@
-// letsBegin = () => {
-//     alert("We are going to begin.");
-// }
+// #myDiv
 
-// letsBegin();
-
-startNow = () => {
-    console.log("starting now...");
+function changeBg() {
+    let myValue = document.getElementById("myDiv");
+    myValue.style.backgroundColor = "white";
 }
-
-startNow();
-
-changeTheDOM = () => {
-    let myVar = document.getElementById("thisOne");
-    alert(myVar.innerHTML);
+function changeBg1() {
+    let myValue = document.getElementById("myDiv1");
+    myValue.style.backgroundColor = "orange";
 }
-
-changeTheDOM();
+function changeBg2() {
+    let myValue = document.getElementById("myDiv2");
+    myValue.style.backgroundColor = "cyan";
+}
