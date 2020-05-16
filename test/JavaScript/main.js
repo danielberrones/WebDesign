@@ -1,4 +1,4 @@
-// #myDiv
+//// #myDiv
 
 function changeBg() {
     let myValue = document.getElementById("myDiv");
