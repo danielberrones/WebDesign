@@ -1,25 +1,27 @@
-body {
-    background-image: url("/Users/danielberrones/Downloads/bg.jpg");
+body{
+    background: url("http://picsum.photos/1300/1300?random=1");
+    /* background:center;  */
+    /* background: fixed; */
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-#myDiv, #myDiv1, #myDiv2 {
-    height: 300px;
-    margin: 10px;
-    width: 350px;
-    outline: 2px dashed white;
-}
-
-button {
-    font-size: 2rem;
-    /* color:white; */
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.parent{
+    display:flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.child{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    width:150px;
+    border: 5px solid gold;
+    margin:15px;
+    color:white;
+    font-size: 4rem;
+    background: rgba(0, 0, 0, 0.5);
 }
