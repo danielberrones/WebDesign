@@ -1,9 +1,7 @@
-function determineStringEnding(myString,ending) {
-	if (ending in myString) {
-		console.log(true);
-	} else {
-		console.log(false);
-	}
+function isInString(string,chars) {
+	let charLength = chars.length;
+	console.log(string);
+	console.log(charLength);
 }
 
-determineStringEnding("This is a string.","his");
+isInString("This is a string","strin");
