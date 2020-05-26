@@ -1,17 +1,9 @@
-function countLongestWord(myString) {
-        // setup	
-	let splitString = myString.split(" ");
-	let longestWord = 0;
-	let theWord = "";
-        // code
-	for (let i = 0; i < splitString.length; i++) {
-		if (splitString[i].length > longestWord) {
-                        theWord = splitString[i];	
-			longestWord = splitString[i].length;
-		}
+function determineStringEnding(myString,ending) {
+	if (ending in myString) {
+		console.log(true);
+	} else {
+		console.log(false);
 	}
-	console.log(theWord);
-	return longestWord;
 }
 
-
+determineStringEnding("This is a string.","his");
