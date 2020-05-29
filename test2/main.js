@@ -1,4 +1,4 @@
-function filteredArray(arr, elem) {
+function filteredArray(arr) {
   let newArr = [];
   // Only change code below this line
   
@@ -6,5 +6,5 @@ function filteredArray(arr, elem) {
   return newArr;
 }
 
-console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
+console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]]));
 
