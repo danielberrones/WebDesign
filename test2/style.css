@@ -1,45 +1,46 @@
-*{
-	padding:0;
-	margin:0;
-	box-sizing:border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body{
-	background:purple;
+body {
+    background: #fdedc9;
 }
 
-.main-logo{
-	color:white;
-	font-family:arial;
-	font-size:2.3rem;
-
+.leftBar {
+    position: absolute;
+    /* left: 0;
+    top: 0; */
+    height: 100%;
+    width: 23%;
+    border-right: 3px ridge indigo;
+    box-shadow: 2px 2px 100px rgb(233, 218, 218);
+    background: rgb(103, 103, 226);
 }
 
-header{
-	background:black;
-	display:flex;
-	padding: 0px 25px;
-	flex-direction:row;
-	justify-content:space-between;
-	align-items:center;
-	border:2px solid cyan;
+.welcome-header {
+    margin-top: 20px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(231, 220, 220);
+    font-size: 3rem;
 }
 
-nav li{
-	list-style:none;
-	display:inline;
+.sideBarWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-nav a {
-	color:white;
-	font-family:helvetica;
-	font-weight:300;
-	font-size:1.3rem;
-	text-decoration:none;
-	padding:2px;
+.sideBox {
+    margin-top: 3rem;
+    height: 310px;
+    width: 250px;
+    outline: 2px solid rgb(29, 255, 187);
 }
 
-.free-portrait{
-	color:cyan;
-	font-size:2.2rem;
+p {
+    color: white;
 }
