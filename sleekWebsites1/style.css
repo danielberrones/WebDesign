@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to bottom, lightgreen, rgb(47, 205, 47));
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-parent-container {
+    width: 40%;
+    height: 40%;
+    /* display: block; */
+}
+
+.image-child-container {
+    margin-top: 100px;
+    margin-left: 50px;
+    max-width: 100%;
+    display: block;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.image-section-wrapper{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    width:100%;
+    background: rgba(0, 0, 0, .3)
+}
+
+h2{
+    color:white;
+    font-size:6rem;
+    font-weight:200;
+}
