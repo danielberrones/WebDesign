@@ -15,31 +15,39 @@ body {
     background-size: cover;
 }
 
-.image-parent-container {
-    width: 40%;
-    height: 40%;
-    /* display: block; */
+h2{
+    color:white;
+    font-size:4rem;
+    font-weight:200;
+    padding:50px;
+    margin-top:50px;
+    border:1px solid white;
 }
-
-.image-child-container {
-    margin-top: 100px;
-    margin-left: 50px;
-    max-width: 100%;
-    display: block;
-    border: 5px solid white;
-    border-radius: 50%;
+p{
+    color:white;
 }
+/* END GLOBALS ***********************/
 
 .image-section-wrapper{
     display: flex;
     flex-direction: row;
     height:100%;
     width:100%;
+
     background: rgba(0, 0, 0, .3)
 }
 
-h2{
-    color:white;
-    font-size:6rem;
-    font-weight:200;
+.image-resize {
+    width: 40%;
+    height: 40%;
+    /* display: block; */
+}
+
+.image-child-container {
+    margin-top: 75px;
+    margin-left: 50px;
+    max-width: 100%;
+    display: block;
+    border: 5px solid white;
+    border-radius: 50%;
 }
