@@ -1,0 +1,47 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background: salmon;
+        }
+        
+        .hero-section {
+            /* background: url('file:///C:/Users/Owner/iCloudDrive/Desktop/todo/dbGit/WebDesign/newProject/buddha.jpg'); */
+            background-image: url(buddha.jpg);
+            max-width: 100%;
+            height: 1000px;
+            background-color: rgba(0, 0, 0, .6);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 60%;
+        }
+        
+        h1 {
+            font-size: 7rem;
+            color: white;
+        }
+        
+        h2 {
+            font-size: 3rem;
+            color: white;
+        }
+        
+        p,
+        li {
+            font-size: 1.8rem;
+            color: white;
+        }
+        
+        li {
+            margin-left: 50px;
+        }
+        
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background: rgba(0, 0, 0, .6);
+        }
